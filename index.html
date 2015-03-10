@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)http://learn.scotthurff.com/ -->
+<html lang="en" style="height:100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Meta, title, CSS, favicons, etc. -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="icon" type="image/png" href="https://s3.amazonaws.com/lecture_attachments/w88uWnA5TZS66pUNIuvK_Slice%202.jpg">
+<link rel="stylesheet" href="https://secure.usefedora.com/css/redactor.css">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+<title>
+	领航教育－雅思小班课</title>
+	<script type="text/javascript" async="" src="./Xcode for Designers - Xcode for Designers_files/ga.js"></script><script async="" src="./Xcode for Designers - Xcode for Designers_files/analytics.js"></script><iframe allowtransparency="true" scrolling="no" src="./Xcode for Designers - Xcode for Designers_files/iframe_shim.html" style="height: 1px; left: -200px; position: absolute; top: -200px; width: 1px;"></iframe><script src="./Xcode for Designers - Xcode for Designers_files/jquery.min.js"></script>
+	<script src="./Xcode for Designers - Xcode for Designers_files/jquery.placeholder.js"></script>
+
+
+	<script src="./Xcode for Designers - Xcode for Designers_files/bootstrap.js"></script>
+	<script src="./Xcode for Designers - Xcode for Designers_files/bootstrap-switch.js"></script>
+	<script src="./Xcode for Designers - Xcode for Designers_files/flatui-radio.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			if("".length==0){
+				var visitortime = new Date();
+				var visitortimezone = -visitortime.getTimezoneOffset()/60;
+				$.ajax({
+					type: "GET",
+					url: "http://learn.scotthurff.com/timezone.php",
+					data: 'time='+ visitortimezone,
+					success: function(){
+	                   //location.reload();
+	               }
+	           });
+			}
+		});
+	</script>
+	<!-- Bootstrap core CSS -->
+	<link href="https://a59b98a46b6b6225f8e5-f63a39482042e1d18f69fa58fccf96e8.ssl.cf5.rackcdn.com/bootstrap.min.css" rel="stylesheet">
+	<link href="https://secure.usefedora.com/css/switch2.css" rel="stylesheet">
+	<link href="https://secure.usefedora.com/css/docs.css?cache=1425705752" rel="stylesheet">
+	<link href="https://secure.usefedora.com/css/school.css" rel="stylesheet">
+	<link href="https://secure.usefedora.com/css/datepicker.css" rel="stylesheet">
+	
+	<link href="https://a59b98a46b6b6225f8e5-f63a39482042e1d18f69fa58fccf96e8.ssl.cf5.rackcdn.com/flat-ui.css" rel="stylesheet">
+	
+
+	<link href="./Xcode for Designers - Xcode for Designers_files/css" rel="stylesheet" type="text/css">
+	<link href="./Xcode for Designers - Xcode for Designers_files/css(1)" rel="stylesheet" type="text/css">
+	<link href="./Xcode for Designers - Xcode for Designers_files/css(2)" rel="stylesheet" type="text/css">
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-41402972-1', 'auto');
+		ga('send', 'pageview');
+
+	</script><meta property="og:url" content="http://learn.scotthurff.com/course/xcode/?ankur=1"><meta property="og:title" content="Xcode for Designers at Xcode for Designers"><meta property="og:image" content="https://s3.amazonaws.com/lecture_attachments/qPt3V64UTWW9Eg2o7i30_blur.png"><meta property="og:description" content="
+	You’re a designer who wants to become an expert at designing mobile experiences. And who wouldn&#39;t? Mobile is the future. And becoming an expert in anything means knowing your tools.
+	But do you know how to create custom Table Views that will handle your creative vision? How non-s">  </head>
+
+	<body style="overflow-x:hidden;">
+		<style>
+			/*
+	.navbar-brand
+	{
+		background-image:url('https://d2vvqscadf4c1f.cloudfront.net/8tIBdVszROXNsNQ5C1XQ_logo-6.png');
+		background-size: 100% 100%;
+		height:60px;
+		width:68px;
+	}
+	*/
+	#homepage_div
+	{
+		background-image:url("https://ankur.usefedora.com/images/background_phone.png");
+		background-position:50% 50%;
+		background-size:cover;
+		height:90%;
+	}
+	.page_div
+	{
+		background-image:url("https://a59b98a46b6b6225f8e5-f63a39482042e1d18f69fa58fccf96e8.ssl.cf5.rackcdn.com/sos.png");
+		background-size:auto;
+	}
+	.bs-docs-nav .navbar-nav > li > a {
+		color: #204056;
+	}
+	.bs-docs-nav .navbar-nav > li > a:hover {
+		color: #23c897;
+	}
+	
+	
+	
+	.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active     >     a:focus {
+		background-color: #ffffff !important;
+		background-image: linear-gradient(to bottom, #17AA76, #149466) !important;
+		background-repeat: repeat-x !important;
+		color: #FFFFFF;
+		outline: 0 none;
+		text-decoration: none;
+	}
+	
+	
+	
+	.dropdown.open {
+		background: #ffffff;
+	}
+	
+	.navbar-fedora .navbar-nav > .active > a,
+	.navbar-fedora .navbar-nav > .active > a:hover,
+	.navbar-fedora .navbar-nav > .active > a:focus {
+		color: #23c897;
+		background-color:#ffffff;
+	}
+
+	.navbar-fedora .navbar-nav > .open > a,
+	.navbar-fedora .navbar-nav > .open > a:hover,
+	.navbar-fedora .navbar-nav > .open > a:focus {
+		color: #23c897;
+		background-color: #ffffff;
+	}
+
+	.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
+		background-image:none;
+		background-color:#ffffff;
+	}
+	body {
+	}
+
+	h1, h2, h3, h4 {
+		font-weight:normal;
+	}
+
+	#course_mainbar {
+		padding-top: 75px!important;
+		background:#f9f9f9;
+	}
+
+	#course_mainbar h4 {
+		margin-top: 35px;
+		font-family:'montserrat',sans-serif;
+		font-size: 25px;
+		font-weight:400;
+	}
+
+	#course_mainbar h5 {
+		margin-top: 35px;
+		font-family:'montserrat',sans-serif;
+		font-size: 22px;
+		font-weight:400;
+	}
+
+	#course_sidebar {
+		border-right: 1px solid #ddd!important;
+		margin-top: 37px!important;
+		background-color: white!important;
+	}
+
+	#course_sidebar .section_div {
+		background-color: white!important;
+		padding-top: 20px!important;
+		padding-bottom: 0!important;
+		font-size: 17px!important;
+	}
+
+	#course_sidebar .lecture_div_active {
+		background: #23c897!important;
+		color: white!important;
+	}
+
+	#course_sidebar .lecture_div_active i {
+		color:white!important;
+	}
+
+	#course_sidebar .lecture_div {
+		background: white;
+		border-bottom: 1px solid white;
+		color: #6b6b6b;
+		font-family: 'PT Serif';
+		font-size: 15px;
+	}
+
+	#course_sidebar .lecture_div i {
+		color: #ccc;
+	}
+
+	#course_sidebar .lecture_div:hover {
+		background-color: #61d5b2;
+		color: white!important;
+	}
+
+	#course_sidebar .lecture_div:hover i {
+		color: white!important;
+	}
+
+	body, p, .lecture, .faq_answer {
+		font-family: 'PT Serif', serif;
+		font-size: 22px!important;
+		line-height: 1.6em!important;
+		color: #444;
+	}
+
+	#lecture_heading {
+		font-size:32px!important;
+	}
+
+	#lecture_heading, 
+	.section, 
+	.lecture_tr, 
+	.container,
+	#course_sidebar, 
+	#course_lecture_footer,
+	.btn  {
+		font-family:'Montserrat',sans-serif;
+		font-weight: normal;
+	}
+
+	.dropdown {
+		font-size: 9px!important;
+		font-family:'Montserrat',sans-serif;
+	}
+
+	#secondarynav  {
+		background: #2B7A8F;
+		background: -moz-linear-gradient(57deg, #2B7A8F 1%, #B546EE 75%);
+		background: -webkit-linear-gradient(57deg, #2B7A8F 1%, #B546EE 75%);
+		background: -o-linear-gradient(57deg, #2B7A8F 1%, #B546EE 75%);
+		background: -ms-linear-gradient(57deg, #2B7A8F 1%, #B546EE 75%);
+		background: linear-gradient(147deg, #2B7A8F 1%, #B546EE 75%); 
+		border-bottom: none!important;
+		height: 37px!important;
+	}
+
+	#secondarynav .nav_icon {
+		box-shadow: 0 0 0;
+		font-size: 20px;
+	}
+
+	#secondarynav .nav_icon:hover {
+		background: rgba(0,0,0,.25);
+	}
+
+	.fa.fa-youtube-play {
+	}
+
+	hr {
+		border-top: 1px solid #ddd;
+		margin-top: 30px!important;
+		margin-bottom: 30px!important;
+	}
+
+	.quotation {
+		font-style: italic;
+		font-size: 28px;
+		line-height: 1.4em;
+	}
+
+	.byline {
+		font-size: 18px;
+		font-style:italic;
+	}
+
+	.typ, .purple {
+		color: #a0a;
+	}
+
+	.white {
+		color:white!important;
+	}
+
+	.darkpurple {
+		color: #703DA9;
+	}
+
+	.red {
+		color: #BF3535;
+	}
+
+	.green {
+		color: #00ba00!important;
+	}
+
+	.pun, .gold {
+		color: #bba37a;
+	}
+
+	.brown {
+		color:#78492A;
+	}
+
+	.lit, .blue {
+		color: #174fd0;
+	}
+	.teal {
+		color: #4D8CBD;
+	}
+	.code {
+		font-family: 'Menlo', 'Monaco', 'Consolas', 'Courier', 'Courier New', sans-serif;
+		color: #5b5b5b;
+		padding: 25px;
+		margin:40px 0;
+		background: white;
+		border: 1px solid #ddd;
+		border-radius: 10px;
+		font-weight: bold;
+		font-size: 16px!important;
+		font-weight: 400;
+	}
+
+	.mon {
+		font-family: 'Menlo', 'Monaco', 'Consolas', 'Courier', 'Courier New', sans-serif;
+		font-weight: 400;
+		font-size: 18px;
+	}
+
+	.process {
+		color: #0B4C3D;
+		padding: 25px;
+		margin:40px 0;
+		background: #F2FFFC;
+		border: 1px solid #86F8E1;
+		border-radius: 10px;
+		font-weight: bold;
+		font-weight: 400;
+	}
+
+	figure {
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+		text-align: left;
+		padding: 1.8em 0 1.8em 0;
+		margin: 1.8em 0 1.8em 0; 
+		display:block;
+	}
+
+	figure figcaption {
+		margin: 0 25px;
+		padding-top: 10px;
+		font: normal 14px/1.5em;
+		letter-spacing: 0.159px;
+		color: #8a8d90; 
+		font-style: italic;
+	}
+
+	.well.well-sm {
+		font-family:'montserrat',sans-serif;
+		font-size: 15px;
+	}
+
+	/* Universal Stuff */
+	.row {
+		margin: 0;
+	}
+
+	.navbar {
+		border-bottom: 1px solid #ddd!important;
+	}
+
+	.navbar-nav > li > a {
+		font-weight: 400;
+	}
+
+	h4.pitch {
+		font-size: 22px;
+		color: #414141;
+		padding: 40px 0 10px 0;
+		margin: 0;
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		text-align:left;
+		font-weight: normal;
+		line-height: 1.5em;
+	}
+
+	.fa.fa-question-circle {
+		display:none;
+	}
+
+	.btn-primary {
+		border-radius: 100px;
+	}
+
+	/* Signed in view for course progress */
+	.lecture_tr .lecture {
+		font-size: 19px!important;
+	}
+
+	.lecture_tr i {
+		font-size: 19px!important;
+	}
+
+	.section {
+	}
+
+	.table.table-bordered {
+		background: white!important;
+		border: 1px solid #ddd!important;
+	}
+
+	.table.table-bordered td {
+		border: 1px solid #ddd!important;
+	}
+
+	.table-striped > tbody > tr:nth-child(even) > td {
+		background: white!important;
+	}
+
+	.table.table-bordered td .btn {
+		margin-top: 3px;
+		font-size: 14px;
+	}
+
+	/* Your Courses */
+	.page_div {
+		background: #f9f9f9;
+	}
+
+	.course_listing {
+		box-shadow: 0 0 0!important;
+		border: 1px solid #ddd;
+	}
+
+	/* Hiding a bunch of stuff */
+	.course_listing hr,
+	.course_listing .course_heading,
+	.course_listing .author_heading,
+	.course_listing #progress_bar_div  {
+		display:none!important;
+	}
+
+	.course_heading {
+		background: white;
+		border: none;
+		height: inherit;
+	}
+
+	.course_subtitle {
+		height: inherit;
+		overflow: visible;
+		line-height: 1.3em;
+		padding: 15px;
+		font-family: 'PT Serif', serif;
+		font-size: 18px;
+		color: #444;
+	}
+
+	/* Curric Page */
+	div.progress {
+		height: 35px!important;
+	}
+
+	#course-bar-enrolled {
+		border-bottom:none;
+		background: url('http://scotthurff.com/images/landing-pages/xcode/intro-bg-blur.jpg');
+		background-size:cover;
+		padding: 55px;
+	}
+	#course-bar-enrolled h2 {
+		color: white;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	#course-bar-enrolled .progress {
+		background: black;
+		background: rgba(0,0,0,.30);
+	}
+
+	#course-bar-enrolled #course-progress-inner,
+	#course-bar-enrolled .progress-bar-success {
+		background: white!important;
+		color: #444;
+		text-shadow: 0 0 0;
+		font-size: 15px;
+	}
+
+	#course-bar-enrolled #course-progress-inner, #course-bar-enrolled .progress-bar-success {
+		font-size: 11px;
+	}
+
+	/* Landing Page */
+	/* Navbar */
+	.navbar-toggle {
+		margin: 0 20px;
+	}
+
+	.navbar-brand img {
+		margin-left: 30px;
+	}
+
+	#course-hero {
+		background: #f9f9f9;
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+
+	#course-hero h1, h2 {
+		font-weight: normal;
+	}
+
+	.btn-hg {
+		padding: 15px;
+		width: 100%;
+	}
+
+	@media screen and (max-width: 768px) {
+		.btn-hg  {
+			font-size: 20px;
+		}
+	}
+
+	@media screen and (max-width: 400px) {
+		.btn-hg  {
+			font-size: 15px!important;
+		}
+	}
+
+	#coupon_div {
+		margin-top: 15px;
+	}
+
+	#coupon_bar {
+		text-shadow: 0 0 0;
+		font-weight: normal;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 20px;
+		padding: 10px 0;
+		margin: 30px 0 0;
+		background: #DEF6F1;
+		color: #004235;
+	}
+
+	#coupon_bar .sentence {
+		color:#5B837B!important;
+	}
+
+	#countdown,
+	#countdown .days,
+	#countdown .hours,
+	#countdown .minutes,
+	#countdown .seconds {
+		color: #004235!important;
+		text-shadow: 0 0 0!important;
+		font-weight:normal!important;
+		font-size: 18px;
+	}
+
+	.alert.alert-danger {
+		margin: 40px 0px 0px;
+		font-family: montserrat;
+		background: none repeat scroll 0% 0% #B94A48;
+		color: white;
+		border: medium none;
+		border-radius: 0px;
+	}
+
+	#course-description {
+		padding-top: 70px;
+	}
+
+	/* centered columns styles */
+	.row-centered {
+		text-align:center;
+	}
+	.col-centered {
+		display:inline-block;
+		float:none;
+		/* reset the text-align */
+		text-align:left;
+		/* inline-block space fix */
+		margin-right:-4px;
+	}
+
+	.in-progress  {
+		background: #F8E71C;
+		padding: 2px;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 13px;
+		color: #111;
+		text-align: center;
+		max-width: 130px;
+		margin: 0 0 10px 0;
+		border-radius: 100px;
+	}
+
+	.faq_question {
+		font-weight:normal;
+	}
+
+	/* Hide Lecture Preview Buttons on LP */
+	.lp-curriculum-list .btn {
+		display:none;
+	}
+
+	.lp-curriculum-list .lecture {
+		cursor:default;
+	}
+
+	/* PH Deal */
+	.ph-logo {
+		width: 60px;
+		padding: 0 0 20px 0;
+	}	</style>
+	<!-- Page content of course! -->
+	<!-- Custom styles for this template -->
+	<style>
+		body {
+			padding-top: 60px;
+			height:100%;
+		}
+
+
+		.navbar-el
+		{
+			height:60px;
+		}
+		.navbar-active
+		{
+			height:60px;
+			background-color:#ffffff;
+			color:#23c897;
+		}
+		.navbar-el:hover
+		{
+			background-color:#ffffff;
+			color:#23c897;
+		}
+		.navbar-link
+		{
+			height:60px;
+			padding-top:21px;
+			font-size:18px;
+		}
+		.nopadh2
+		{
+			padding-top:0px; margin-top:0px;padding-bottom:0px;margin-bottom:0px;	
+		}
+
+	</style>
+
+
+	<div class="navbar navbar-fedora navbar-fixed-top bs-docs-nav" id="primarynav" style="background-color:#ffffff;border-bottom:0px;" role="navigation">
+
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+
+<!-- <a class="navbar-brand" href="./Xcode for Designers - Xcode for Designers_files/Xcode for Designers - Xcode for Designers.html" style="color:white;font-size:30px;padding:0px;">
+	<img src="./Xcode for Designers - Xcode for Designers_files/logo.png" style="margin-top:0px;margin-bottom:0px;width:68px;height:60px;"></a> --></div>
+
+	<div class="collapse navbar-collapse navbar-ex1-collapse">
+
+
+
+		<ul class="nav navbar-nav pull-right">
+
+
+			<li class="navbar-el" style="">
+				<a href="" class="navbar-link" style="padding-top:21px; ;">雅思课程</a>
+			</li>
+			<li class="navbar-el" style="">
+				<a href="" class="navbar-link" style="padding-top:21px; ;">所有课程</a>
+			</li>
+
+<!-- <li class="navbar-el" style=""><a href="https://ssl.usefedora.com/login_register.php?affcode=&site=2655#login" class="navbar-link" style="padding-top:21px; ;">Login</a></li>
+	<a id="signup_button" class="btn btn-primary pull-right btn-lg" style="margin-top:7px;margin-left:10px;margin-bottom:-2px;"> Sign Up </a> -->
+</ul>
+
+
+</div>
+
+<!--/.nav-collapse -->
+</div>
+</div>
+
+
+<script src="./Xcode for Designers - Xcode for Designers_files/E-v1.js"></script>
+
+
+<link rel="stylesheet" href="http://scotthurff.com/stylesheets/landing-pages/xcode-fedora.css">
+<!-- <link rel="stylesheet" href="http://scotthurff.com/stylesheets/app.css"> -->
+<div style="background:#f9f9f9;">
+	<div id="course-hero">
+		<div class="row marquee" style="text-align: center; margin: 0;">
+			<div class="container">
+			<!-- <div class="col-lg-5 col-md-5" id="course-image" style="">
+				
+					<img class="img-responsive" src="https://s3.amazonaws.com/lecture_attachments/qPt3V64UTWW9Eg2o7i30_blur.png" alt="Xcode for Designers - Be a designer who knows Xcode."/>
+				
+				</div> -->
+				<div class="col-xs-12 col-md-9 col-centered" id="course-info" style="">
+					<center>
+						<img src="./Xcode for Designers - Xcode for Designers_files/rocket-smoker-dark.png" class="rocket">
+						<!--<h1>Xcode for Designers</h1>-->
+						<h1>找一个熟悉你弱点的雅思老师</h1>
+						<!-- <h2>Be a designer who knows Xcode.</h2> -->
+						<h2>墨尔本最权威雅思培训，10人单项小班开课啦！</h2>
+						<div class="email-signup top">
+
+							<h3>36+小时的4周雅思集中营</h3>
+
+							<a class="btn btn-hg btn-primary" onclick=""><i class="fa fa-shopping-cart"></i> 我要报名！
+
+							</a>
+							<div class="cf"></div>
+
+						</div>
+					</center>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+
+<div class="row" style="padding-top:50px;padding-bottom:50px;">
+	<div class="container">
+		<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+			<span style="font-size:21px;">师资力量</span>
+			<p>领航雅思坐拥强大的师资团队，bla</p>
+			<br><br>
+			<div class="row">
+				<div class="col-lg-3">
+					<a href="http://learn.scotthurff.com/author/2029/chris-slowik--scott-hurff/"><img src="./Xcode for Designers - Xcode for Designers_files/iqTpCf4NSKudlIY9GV10_fbunknow.jpg" class="img-rounded img-responsive" style="margin-bottom: 30px;"></a><!--<h4 class="pitch" style="padding: 20px 0 0 0;
+					font-size: 17px;">Chris Slowik & Scott Hurff</h4>-->
+				</div>
+				<div class="col-lg-9">
+					<span style="font-size:16px;text-align:left;" id="author_bio"><h4 class="pitch" style="padding-top: 0;">
+						About Kelvin
+					</h4>
+					<p>
+						Kelvin怎么牛逼，怎么牛逼
+					</p>
+					<h4 class="pitch" style="padding-top: 20px;">
+						About Rose
+					</h4>
+					<p>
+						Rose怎么牛逼，怎么牛逼
+					</p>
+				</span></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+	<div class="row top-quotes" style="background-color:#ecf0f1;">
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<img src="./Xcode for Designers - Xcode for Designers_files/1.jpg">
+			<p>“我终于告别雅思了！领航雅思的老师绝对专业，负责。我上课的写作课程，老师是一句话一句话给我改的。我觉得来上课十分必要。自己闭门造车，写来写去，还是那点儿中式英语，自己懂，考官不懂。”</p>
+			<h5><a href="https://twitter.com/davidkmckinney" target="blank">陈东皓</a></h5>
+			<h6>RMIT会计硕士</h6>
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4 hidden-xs hidden-sm hidden-md">
+			<img src="./Xcode for Designers - Xcode for Designers_files/2.jpg">
+			<p>"我原来上的都是二三十人的大课，老师就是针对大家讲，感觉没有什么效果。领航雅思每周模考，然后针对我的问题讲。在上课的几周的确很苦，老师布置了很多要背，要写的东西，然后周末还有模考。但是感觉很有针对性，有效果。"</p>
+			<h5><a href="http://twitter.com/stammy" target="blank">陈曦</a></h5>
+			<h6>墨尔本大学商学院</h6>
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4 hidden-xs hidden-sm">
+			<img src="./Xcode for Designers - Xcode for Designers_files/stephanie.jpg">
+			<p>""</p>
+			<h5><a href="https://twitter.com/soengle" target="blank">Stephanie Engle</a></h5>
+			<h6>Marketing Intern at <a href="http://secret.ly/" target="blank">Secret</a></h6>
+		</div>
+	</div>
+
+
+	<div class="row" id="course-description">
+		<div class="container">
+			<div class="col-lg-2 col-md-2 hidden-sm hidden-xs" style=""><center>
+
+			</div>
+			<div class="col-xs-1 visible-xs"></div>
+
+			<div class="col-lg-8 col-md-8 col-sm-10 col-lg-offset-0 col-md-offset-0 col-sm-offset-1 col-xs-10">
+				<h3 class="pitch">
+					课程设置
+				</h3>
+				<h4 class="pitch">
+					听说读写模考精讲班（6分班，7分班）
+				</h4><p>
+				每周末模考，现任雅思考官评分，点评。每周16小时。不超过10人的小班教学。其他的特色</p><h4 class="pitch">
+				4周写作单项强化班（6分班，7分班）
+			</h4><p>
+		</p>
+		<p>
+		</p><h4 class="pitch">
+		为什么要选择我们？
+	</h4><p>
+	这里说一下我们的特色！</p>
+	<br>
+	<center><a class="btn btn-hg btn-primary" onclick=""><i class="fa fa-shopping-cart"></i> 
+		4周写作单项强化班，我要报名
+	</a></center>
+</div>
+</div>
+</div>
+
+<div class="row white-center lessons-toc">
+	<div class="col-sm-12 col-md-5 overview">
+		<h4>作文批改</h4>
+		<p>When a country develop its technology, the traditional skills and ways of life die out. It is pointless to try and keep then alive.</p>
+
+		<p>To what extent do you agree or disagree with this opinion?</p>
+
+		<p>With the advancement in technology, many traditional skills have become obsolete. Technological innovations have brought fundamental shifts to the ways of life. Some people advocate that both the traditional skills and the old ways of life should be preserved at all cost, while others believe that the society should not carry the burden of something outdated and it is pointless to keep them alive. I believe that there is no universal answer to this question, and we need to look at the intrinsic nature of a specific skill or way of life.</p>
+
+		<p>Some traditional skills and lifestyles, although outdated, were produced by a certain period of human history, and thus carry the memory of mankind or even define a certain culture. They belong to the posterity and thus must be preserved. For example, Chinese dumplings can now be manufactured on a large scale, however, the skill of making hand-made dumplings should be nevertheless preserved, because that specific makes a Chinese Chinese. Another example lies in the way people communicate. Although emails are much faster and more efficient, sending physical Christmas cards should not be replaced by cold emails.</p>
+
+		<p>On the other hand, people also have to acknowledge that the society is experiencing radical changes everyday in every possible way. Carrying all the traditional skills and ways of life will potentially deter the social advancement, and therefore we need to let a few of them die out, which i also a natural implication of social development. For example, people do no dress like what they did decades ago and do not ride a horse as a serious means for commuting.</p>
+
+		<p>To conclude, people need to try and keep some of the traditional skills and ways of life alive, especially those that carry traditional and cultural values, at the same time, allow the others to die out naturally.</p>
+
+		<p>(306 words)</p>
+	</div>
+	<div class="col-sm-12 col-md-7 lessons">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="lesson-item">
+							<h5 style="color: #EE3385;">1. 整体文章结构问题</h5>
+							<p>Bla...</p>
+						</div>
+						<div class="lesson-item">
+							<h5 style="color: #05C0F0;">2. 语法还可以加强</h5>
+							<p>Bla</p>
+						</div>
+						<div class="lesson-item">
+							<h5 style="color: #FF6822;">3. 用词不够准确</h5>
+							<p> Bla</p>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="lesson-item">
+							<h5 style="color: #00DEDB;">4. 句式不够灵活</h5>
+							<p>Bla</p>
+						</div>
+						<div class="lesson-item">
+							<h5 style="color: #0F95F0;">5. 总体评价 6.5分</h5>
+							<p>Bla</p>
+						</div>
+						<div class="lesson-item">
+							<h5 style="color: #B446EF;">6. 怎样提高</h5>
+							<p>Bla</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row" style="margin-top: 0; background: #fff; padding: 0 0 50px 0; ">
+	<div class="email-signup" style="margin: 0 auto; background: transparent; max-width: 750px; border:none;">
+		<div class="col-md-11 col-xs-12">
+			<h3 style="font-size: 23px; padding-bottom: 0; ">免费参加模考！</h3>
+			<h4 style="padding: 0 0 25px 0;">3月14日早上9点，雅思考官给你模考。</h4>
+			<!-- AWeber Web Form Generator 3.0 -->
+			<form method="post" class="af-form-wrapper" accept-charset="iso-8859-1" action="http://www.aweber.com/scripts/addlead.pl">
+				<div id="af-form-1631898421" class="af-form"><div id="af-body-1631898421" class="af-body af-standards">
+					<div class="af-element">
+						<div class="af-textWrap"><input class="text" id="awf_field-65609374" placeholder="请输入你的邮箱" type="text" name="email" value="" tabindex="500" onfocus=" if (this.value == &#39;&#39;) { this.value = &#39;&#39;; }" onblur="if (this.value == &#39;&#39;) { this.value=&#39;&#39;;} ">
+						</div><div class="af-clear"></div>
+					</div>
+					<div class="af-element buttonContainer">
+						<input name="submit" class="submit" type="submit" value="报名模考" tabindex="501">
+						<div class="af-clear"></div>
+					</div>
+				</div>
+			</div>
+			<div style="display: none;"><img src="./Xcode for Designers - Xcode for Designers_files/displays.htm" alt=""></div>
+		</form>
+
+		<!-- /AWeber Web Form Generator 3.0 -->
+	</div>
+</div>
+</div>
+
+<div class="row" style="padding-top:50px;padding-bottom:50px;">
+	<div class="container lp-curriculum-list">
+		<div class="col-lg-8 col-lg-offset-2">
+			<span style="font-size:31px;">四项模考精讲班课程安排</span><br>
+			<div class="section">第一周</div>
+			<table class="table table-striped table-bordered" style="padding:0px;width:100%;">
+
+				
+
+				<tbody><tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-file-text"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">A Brief 'Hello'</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/84509/a-brief-hello" id="watch_link_84509" class="btn btn-success btn-block btn-xs">Preview</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-file-text"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">First, Get the Tools</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/84523/first-get-the-tools" id="watch_link_84523" class="btn btn-success btn-block btn-xs">Preview</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-file-text"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">What's so Special about Going Native? </span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/85088/whats-so-special-about-going-native-" id="watch_link_85088" class="btn btn-success btn-block btn-xs">Preview</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-file-text"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Swift: Why so Special?</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/85086/swift-why-so-special" id="watch_link_85086" class="btn btn-success btn-block btn-xs">Preview</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-file-text"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Interface Builder &amp; Storyboards</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/85090/interface-builder--storyboards" id="watch_link_85090" class="btn btn-success btn-block btn-xs">Preview</a>
+
+				</div></div></td></tr>
+
+				
+
+
+
+			</tbody></table>
+
+			<div class="section">第二周</div>
+			<table class="table table-striped table-bordered" style="padding:0px;width:100%;">
+
+				
+
+				<tbody><tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Hello, World</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/84520/hello-world" id="watch_link_84520" class="btn btn-success btn-block btn-xs">Preview</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Variables</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/84521/variables" id="watch_link_84521" class="btn btn-success btn-block btn-xs">Preview</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Operators</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/84961/operators" id="watch_link_84961" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Strings</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/84885/strings" id="watch_link_84885" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Arrays</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/84962/arrays" id="watch_link_84962" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Conditionals</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/84963/conditionals" id="watch_link_84963" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+
+				
+
+
+
+			</tbody></table>
+
+			<div class="section">第三周</div>
+			<table class="table table-striped table-bordered" style="padding:0px;width:100%;">
+
+				
+
+				<tbody><tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-file-text"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Download the Source Files</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/88557/download-the-source-files" id="watch_link_88557" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Starting a Project</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/87123/starting-a-project" id="watch_link_87123" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">A General Tour of Xcode</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/87124/a-general-tour-of-xcode" id="watch_link_87124" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Basic Workflows &amp; Your First Visual App</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/87125/basic-workflows--your-first-visual-app" id="watch_link_87125" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Testing With iOS Simulator &amp; Your Device</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/87126/testing-with-ios-simulator--your-device" id="watch_link_87126" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Working Buttons</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/87127/working-buttons" id="watch_link_87127" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">A Real Prototype</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/87133/a-real-prototype" id="watch_link_87133" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+
+				
+
+
+
+			</tbody></table>
+
+			<div class="section">第四周</div>
+			<table class="table table-striped table-bordered" style="padding:0px;width:100%;">
+
+				
+
+				<tbody><tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Classes and Code</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/87324/classes-and-code" id="watch_link_87324" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Custom Classes</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/87342/custom-classes" id="watch_link_87342" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Table View, Rows &amp; Arrays</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/87343/table-view-rows--arrays" id="watch_link_87343" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Customizing the Table View's Look</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/87344/customizing-the-table-views-look" id="watch_link_87344" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Logic &amp; Conditionals</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/87345/logic--conditionals" id="watch_link_87345" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Custom Fonts &amp; Stylistic Touches</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/87346/custom-fonts--stylistic-touches" id="watch_link_87346" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+
+				
+
+				<tr class="lecture_tr"><td class="lecture_completion"><div class="row"><div class="col-lg-10 col-md-10 col-sm-10 col-xs-9"><span style="font-size:16px;"><i class="fa fa-youtube-play"></i> &nbsp;</span> 
+					<span class="lecture" style="font-size:17px;">Saving Variables &amp; Popping Alerts</span></div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-3" style="padding-left:20px;padding-right:20px;">
+
+					<a href="http://learn.scotthurff.com/lecture/87347/saving-variables--popping-alerts" id="watch_link_87347" class="btn btn-info disabled btn-block btn-xs">Start</a>
+
+				</div></div></td></tr>
+			</tbody></table>
+		</div>
+	</div>
+</div>
+
+
+<div class="row" style="padding-top:50px;padding-bottom:70px;background-color:#fff;">
+	<div class="container"><div class="col-xs-1 visible-xs"></div>
+	<div class="col-lg-8 col-lg-offset-2 col-xs-10  col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+		<span style="font-size:31px;font-weight:600;"><i class="fa fa-question-circle"></i> 常见问题解答</span><br>
+
+		<div class="faq_question">
+			1. 这个课程可以保证我通过6分和7分的考试么？
+		</div>
+		<div class="faq_answer" style="padding-top:7px;font-size:17px;">  
+			你梦呢吧！
+		</div>
+	</div>
+</div>
+</div>
+
+
+
+
+
+<div id="course-hero">
+		<div class="row marquee" style="text-align: center; margin: 0;">
+			<div class="container">
+			<!-- <div class="col-lg-5 col-md-5" id="course-image" style="">
+				
+					<img class="img-responsive" src="https://s3.amazonaws.com/lecture_attachments/qPt3V64UTWW9Eg2o7i30_blur.png" alt="Xcode for Designers - Be a designer who knows Xcode."/>
+				
+				</div> -->
+				<div class="col-xs-12 col-md-9 col-centered" id="course-info" style="">
+					<center>
+						<img src="./Xcode for Designers - Xcode for Designers_files/rocket-smoker-dark.png" class="rocket">
+						<div class="email-signup top">
+
+							<h3>加入雅思微信讨论群，开始问问题吧</h3>
+
+							<a class="btn btn-hg btn-primary" onclick=""><i class="fa fa-shopping-cart"></i> 4周写作单项强化班，我要报名。
+
+							</a>
+							<div class="cf"></div>
+
+						</div>
+					</center>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+<script type="text/javascript">
+	var original_rating = null;
+	function ratingChanged()
+	{
+
+		var rating = $("#class-rating").val();
+
+		if (rating)
+		{
+	//alert ("new rating is "+rating);
+	original_rating = rating;
+	
+	$("#main_div").html("<center><p><br/><img src='http://learn.scotthurff.com/images/ajaxloader2.gif' /><br /><br /></center>");
+	$.post("http://learn.scotthurff.com/review_backend.php",{method:'add_star_rating',rating:rating,courseid:4182},function (data)
+	{
+		reviewClass();
+	});
+	
+}
+}
+function displayFull()
+{
+	$("#hidden-section").css("display","block");
+	$("#expand-section").css("display","none");
+}
+$(function()
+{
+	//setInterval(updateTime, 1000);
+	//$("#class-rating").rating();
+	$("#signup_button").removeAttr("href");
+	$("#signup_button").on("click",doEnroll);
+	
+
+	//updateTime();
+});
+function fullBio()
+{
+	var authorBio = "<h4 class=\"pitch\" style=\"padding-top: 0;\">\r\nAbout Chris Slowik\r\n<\/h4>\r\n<p>\r\n  I\u2019ve been involved in the creation of mobile and web apps for years, initially with mainly UI design. It was a natural next step to combine that experience with an interest in animation and get involved in more advanced interaction design. I currently create interaction concepts for all the cool stuff we\u2019re designing at \r\n  <a href=\"https:\/\/dribbble.com\/creativedash\">CreativeDash<\/a>, working with some really neat startups. I\u2019m always looking for new ways to prototype and export interactions.\r\n<\/p>\r\n<h4 class=\"pitch\" style=\"padding-top: 20px;\">\r\nAbout Scott Hurff\r\n<\/h4>\r\n<p>\r\n I'm on the founding team and head of product for \r\n  <a href=\"http:\/\/trytappy.com\/\">Tappy<\/a>, a mobile app backed by Kleiner Perkins. I've been designing and building products on the Web for over 15 years, consulting with dozens of startups. The products I designed and helped build have been used by over 20 million people and a number of organizations, including VICE, Dick Clark Productions, Greyson Chance, Jimmy Kimmel Live, Puma, INDMUSIC, TMZ and Disney. I've built social networks, SaaS products, e-commerce storefronts and software, marketplaces, email apps and more.\r\n<\/p>";
+	$("#author_bio").html(authorBio);
+	
+}
+function doEnroll()
+{
+	
+	window.location.href = "https://ssl.usefedora.com/enroll.php?site=2655&affcode=&course=4182&user=0&sig=cfcd208495d565ef66e7dff9f98764da#register";
+
+}
+function reviewClass()
+{
+	$("#main_div").html("<center><p><br/><img src='http://learn.scotthurff.com/images/ajaxloader2.gif' /><br /><br /></center>");
+	$("#main_div").load('http://learn.scotthurff.com/write_review.php?courseid=4182');
+	$(document).scrollTop($("#main_div").offset().top);	
+	if(history.pushState) {
+		history.pushState({"id":100}, document.title, "http://learn.scotthurff.com/course/xcode/write-review/");
+	}
+}
+function flipCoupon()
+{
+	$("#coupon_div").html('<div class="row"><div class="col-lg-6 col-lg-offset-3"><table><tr><td><input type="text" style="border-radius:5px;font-size:18px;" class="form-control" placeholder="COUPON" id="coupon_code" /></td><td> <a class="btn btn-default btn-lg" onClick="applyCoupon()">Apply</a></td></tr></div></div>');
+}
+
+
+function applyCoupon()
+{
+	var cCode = $("#coupon_code").val();
+	$(location).attr("href","http://learn.scotthurff.com/course/xcode/?couponCode="+cCode);
+}
+function unwatched_hovered(lectureid)
+{
+	var elementName = "#circle_"+lectureid;
+	$(elementName).removeClass("fa-circle-o");
+	//$(elementName).removeClass("fa-check-circle");
+	$(elementName).addClass("fa-play-circle-o");
+	showWatchButton(lectureid);
+}
+function undo_unwatched_hovered(lectureid)
+{
+	var elementName = "#circle_"+lectureid;
+	$(elementName).removeClass("fa-play-circle-o");
+	$(elementName).addClass("fa-circle-o");
+	removeWatchButton(lectureid);
+}
+function watched_hovered(lectureid)
+{
+	var elementName = "#circle_"+lectureid;
+	//$(elementName).removeClass("fa-circle-o");
+	$(elementName).removeClass("fa-check-circle");
+	$(elementName).addClass("fa-play-circle");
+	showWatchButton(lectureid);
+}
+function undo_watched_hovered(lectureid)
+{
+	var elementName = "#circle_"+lectureid;
+	$(elementName).removeClass("fa-play-circle");
+	$(elementName).addClass("fa-check-circle");
+	removeWatchButton(lectureid);
+}
+
+function showWatchButton(lectureid)
+{
+	var element = "#watch_link_"+lectureid;
+	$(element).css("display","block");
+}
+function removeWatchButton(lectureid)
+{
+	var element = "#watch_link_"+lectureid;
+	$(element).css("display","none");
+	
+}
+</script>
+
+
+<!---
+	<div class="navbar navbar-inverse" style="margin-bottom:0px;padding-bottom:0px;border-radius:0px;">
+	 <div class="container">
+	<p class="navbar-text" style="color:white;">Copyright 2013 Xcode for Designers.</p>
+
+	  <ul class="nav navbar-nav pull-right">
+	
+	    <li><a href="http://learn.scotthurff.com/privacy">Privacy Policy</a></li>
+	    <li><a href="mailto:scotthurff@gmail.com" target="_blank">Contact Us</a></li>
+				
+	<li>	</li>
+	  </ul>
+
+	</div>
+</div>-->
+<style type="text/css">
+	.footer-column
+	{
+		font-size:16px;
+		color:#bac1c7;
+		padding-top:15px;
+		padding-bottom:10px;
+	}
+	.footer-column a
+	{
+		color:#bac1c7;
+	}
+	.footer-column a:hover
+	{
+		color:white;
+		text-decoration:none;
+	}
+</style>
+
+<script>
+	
+	var _gaq = _gaq || [];
+	_gaq.push(
+		['_setAccount', 'UA-44397410-1'],
+		['_trackPageview']	);
+</script>
+
+
+<script type="text/javascript">
+	$( document ).ready(function() {
+		$('input, textarea').placeholder();
+	});
+
+</script>
+
+
+</body></html>
